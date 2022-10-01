@@ -141,7 +141,8 @@ int cmd_config(int argc, const char **argv, const char *prefix);
 int cmd_count_objects(int argc, const char **argv, const char *prefix);
 int cmd_credential(int argc, const char **argv, const char *prefix);
 int cmd_credential_cache(int argc, const char **argv, const char *prefix);
-int cmd_credential_cache_daemon(int argc, const char **argv, const char *prefix);
+int cmd_credential_cache_daemon(int argc, const char **argv,
+				const char *prefix);
 int cmd_credential_store(int argc, const char **argv, const char *prefix);
 int cmd_describe(int argc, const char **argv, const char *prefix);
 int cmd_diagnose(int argc, const char **argv, const char *prefix);
@@ -196,6 +197,7 @@ int cmd_pack_redundant(int argc, const char **argv, const char *prefix);
 int cmd_patch_id(int argc, const char **argv, const char *prefix);
 int cmd_prune(int argc, const char **argv, const char *prefix);
 int cmd_prune_packed(int argc, const char **argv, const char *prefix);
+int cmd_psuh(int argc, const char **argv, const char *prefix);
 int cmd_pull(int argc, const char **argv, const char *prefix);
 int cmd_push(int argc, const char **argv, const char *prefix);
 int cmd_range_diff(int argc, const char **argv, const char *prefix);
